@@ -5,7 +5,7 @@
 ```python
 recognized_data = [{<JSON_PARAMS>}, {...}]
 
-result = ReceiptTest(recognized_data)
+result = Nurec(recognized_data)
 ```
 
 ### Methods

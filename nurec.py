@@ -2,7 +2,7 @@ import yaml
 import os
 import Levenshtein
 
-class ReceiptTest:
+class Nurec:
   def __init__(self, recognized_data):
     self.recognized_data = recognized_data
     self.total_chars = 0
