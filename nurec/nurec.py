@@ -13,7 +13,8 @@ class Nurec:
   def load_yaml_and_compare(self):
     for data in self.recognized_data:
       file_name = data["File Name"]
-      yaml_file_path = os.path.join('/verification/', f"{file_name}.yaml")
+      module_dir = os.path.dirname(os.path.abspath(__file__))
+      yaml_file_path = os.path.join(module_dir, 'verification', f"{file_name}.yaml")
 
       with open(yaml_file_path, 'r') as f:
         yaml_data = yaml.safe_load(f)
