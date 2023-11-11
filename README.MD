@@ -9,7 +9,7 @@
 ```bash
 !pip install git+https://github.com/AlexNimoy/nurec.git
 
-from nurec.nurec import Nurec
+from nurec import Nurec
 ```
 
 ```python
