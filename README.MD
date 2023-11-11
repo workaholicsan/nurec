@@ -1,6 +1,16 @@
 # Test System
 
+## Colab Examples
+
+[Colab Examples](https://colab.research.google.com/drive/19878-C6WMm1ApNNEw5-Y3Xt-Tskwrgwb?usp=sharing).
+
 ## Usage
+
+```bash
+!pip install git+https://github.com/AlexNimoy/nurec.git
+
+from nurec.nurec import Nurec
+```
 
 ```python
 recognized_data = [{<JSON_PARAMS>}, {...}]
